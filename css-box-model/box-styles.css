@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, p {
+  background-color: #DDE0E3;   /* Light gray */
+}
+
+em, strong {
+  background-color:  #B2D6FF;  /* Light blue */
+  }
+
+em, strong   {
+  background-color:  #B2D6FF;
+  display: block;
+}
+
+em, strong {
+  backgroud-color: #B2D6FF;
+  display: inline;       /* This is the default for em and strong */
+  }
+
+  h1 {
+    padding: 50px;
+  }
+
+P {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  paddding left: 10px;
+  padding-right: 10px;
+}
+
+P {
+  padding: 20px 10px;  /* vertical Horizontal */
+}
+
+P {
+  padding: 20px 0px 20px 10px;  /* Top Right Bottom Left */
+}
+
+h1 {
+  padding: 50px;
+  border: 1px solid #5D6063;
+}
+
+border-bottom: 1px solid #5D6063;
+
+p {
+  padding 20px 0 20px 10px;
+  margin-bottom: 50px;  /* Add this */
+}
+
+strong {
+  margin: 50px;
+}
+
+ /*strong {
+  padding: 50px;
+}*/
+
+P {
+  padding: 20px 0 20px 10px;
+
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+div {
+
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: center;
+  border-radius: 5px;
+
+  width: 200px;
+  box-sizing: box-border;  /* Add this */
+  margin: 20px auto;   /* Vertical Horizontal */
+}
+
+div {
+  /* [Existing declarations] */
+  width: 200px;
+}
+
+body {
+  text-align: center;
+}
